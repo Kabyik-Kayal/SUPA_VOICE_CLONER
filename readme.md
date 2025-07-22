@@ -39,16 +39,33 @@
 
 ## 📋 Table of Contents
 
-- [✨ Features](#-features)
-- [🖼️ Screenshots](#️-screenshots)
-- [🚀 Installation](#-installation)
-- [🔧 Usage](#-usage)
-- [📡 API Reference](#-api-reference)
-- [🐳 Docker Setup](#-docker-setup)
-- [🔗 Project Structure](#-project-structure)
-- [👥 Contributing](#-contributing)
-- [📄 License](#-license)
-- [🙏 Acknowledgements](#-acknowledgements)
+- [🎙️ Supa Voice Cloner](#️-supa-voice-cloner)
+  - [✨ Features](#-features)
+  - [🖼️ Screenshots](#️-screenshots)
+    - [Web Application Interface](#web-application-interface)
+    - [Usage Example](#usage-example)
+  - [📋 Table of Contents](#-table-of-contents)
+  - [🚀 Installation](#-installation)
+    - [Prerequisites](#prerequisites)
+    - [Quick Setup](#quick-setup)
+    - [🐳 Docker Setup](#-docker-setup)
+  - [🔧 Usage](#-usage)
+    - [Web Interface](#web-interface)
+    - [Programmatic Usage](#programmatic-usage)
+    - [Supported Languages](#supported-languages)
+  - [📡 API Reference](#-api-reference)
+    - [Endpoints](#endpoints)
+      - [`POST /`](#post-)
+      - [`GET /generated/<filename>`](#get-generatedfilename)
+    - [Example API Usage](#example-api-usage)
+  - [� Project Structure](#-project-structure)
+  - [�🖼️ Demo](#️-demo)
+  - [👥 Contributing](#-contributing)
+    - [Getting Started](#getting-started)
+    - [Contribution Guidelines](#contribution-guidelines)
+    - [Issues and Feature Requests](#issues-and-feature-requests)
+  - [📄 License](#-license)
+  - [🙏 Acknowledgements](#-acknowledgements)
 
 ## 🚀 Installation
 
@@ -284,15 +301,8 @@ We welcome contributions! Here's how you can help improve Supa Voice Cloner:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details
 
-### MIT License Summary
-- ✅ Commercial use allowed
-- ✅ Modification allowed  
-- ✅ Distribution allowed
-- ✅ Private use allowed
-- ❌ No warranty provided
-- ❌ No liability accepted
 
 ## 🙏 Acknowledgements
 
