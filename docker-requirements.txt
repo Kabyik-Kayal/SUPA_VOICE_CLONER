@@ -1,0 +1,4 @@
+Flask
+transformers==4.41.2
+TTS==0.22.0
+pydub
