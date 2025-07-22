@@ -57,9 +57,7 @@
     - [Endpoints](#endpoints)
       - [`POST /`](#post-)
       - [`GET /generated/<filename>`](#get-generatedfilename)
-    - [Example API Usage](#example-api-usage)
   - [� Project Structure](#-project-structure)
-  - [�🖼️ Demo](#️-demo)
   - [👥 Contributing](#-contributing)
     - [Getting Started](#getting-started)
     - [Contribution Guidelines](#contribution-guidelines)
@@ -110,19 +108,18 @@ python app.py
 
 ### 🐳 Docker Setup
 
-For a containerized deployment:
+For running the app locally with Docker:
+```docker
 
-1. **Build the Docker image:**
-```bash
-docker build -t supa-voice-cloner .
+#For Nvidia GPU supported version
+docker run -p 5000:5000 supa-voice-cloner kabyik/supa-voice-cloner:latest 
+
+#For CPU only version
+docker run -p 5000:5000 supa-voice-cloner kabyik/supa-voice-cloner:cpu
+
 ```
 
-2. **Run the container:**
-```bash
-docker run -p 5000:5000 supa-voice-cloner
-```
-
-3. **Access the application:**
+1. **Access the application:**
    Navigate to `http://localhost:5000` in your browser
 
 ## 🔧 Usage
@@ -210,16 +207,6 @@ Retrieve a generated audio file.
 
 **Response:** Audio file download
 
-### Example API Usage
-
-```bash
-# Using curl to clone a voice
-curl -X POST http://localhost:5000/ \
-  -F "script=Hello, this is a test of voice cloning!" \
-  -F "language=en" \
-  -F "voice_file=@/path/to/voice_sample.wav"
-```
-
 ## � Project Structure
 
 ```
@@ -253,12 +240,6 @@ SUPA_VOICE_CLONER/
 ├── 📂 utils/                # Utility functions
 └── 📂 logs/                 # Application logs
 ```
-
-## �🖼️ Demo
-
-<p align="center">
-  <img src="static/demo-screenshot.png" alt="Supa Voice Cloner Demo" width="700"/>
-</p>
 
 ## 👥 Contributing
 
