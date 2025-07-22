@@ -54,7 +54,7 @@
 
 ### Prerequisites
 
-- **Python 3.8+** - [Download Python](https://www.python.org/downloads/)
+- **Python 3.11* - [Download Python](https://www.python.org/downloads/)
 - **pip** - Package installer for Python
 - **Git** - Version control system
 
