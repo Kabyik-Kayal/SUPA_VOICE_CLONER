@@ -14,6 +14,8 @@
 
 ---
 
+[Live on Huggingface Space](https://huggingface.co/spaces/Kabyik/Supa-voice-cloner)
+
 ## ✨ Features
 
 - 🎤 **Voice Cloning**: Clone any voice from a short audio sample
